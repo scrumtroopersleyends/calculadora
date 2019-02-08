@@ -1,6 +1,6 @@
-# Katanaapp base application
+# Calculadora base application
 
-Katanaapp base code
+Calculadora base code
 
 ## Getting Started
 
