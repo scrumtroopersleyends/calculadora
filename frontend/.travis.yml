@@ -11,6 +11,7 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
   - docker build -t pichincha/backend backend/.
   - docker build -t pichincha/frontend frontend/.
+  - export HOSTNAME=hostname
   - chmod +x build.sh
   - ./build.sh
   - docker-compose up
