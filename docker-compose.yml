@@ -9,6 +9,5 @@ services:
   web:
     image: 'pichincha/frontend'
     build: frontend/
-    exec: sed -i 's|//[A-Za-z0-9_.-]\+|//${HOSTNAME}|g' ./assets/config/configuration.ts
     ports:
       - 3000:80
