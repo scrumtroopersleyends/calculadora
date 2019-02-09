@@ -16,4 +16,6 @@ before_install:
   - export HOSTNAME=hostname
   - chmod +x build.sh
   - ./build.sh
+
+script:
   - docker-compose up
