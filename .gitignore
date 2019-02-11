@@ -27,3 +27,4 @@
 ### Client compilation ###
 /frontend/dist/
 /frontend/node_modules/
+/backend/target/
